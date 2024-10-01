@@ -6,7 +6,6 @@ Bem-vindo ao projeto **Viagens dos Sonhos**, um site que ajuda os usuários a en
 
 ## Funcionalidades
 
-Este site oferece as seguintes funcionalidades:
 
 - **Pesquisar destinos de viagem**: Encontre o destino ideal com base em suas preferências.
 - **Filtrar resultados**: Filtre as opções por preço, categoria e outras características.
