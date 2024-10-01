@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viagens dos Sonhos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Viagens dos Sonhos</h1>
+    <nav>
+      <ul>
+        <li><a href="#destinos">Destinos</a></li>
+        <li><a href="#pacotes">Pacotes de Viagem</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h2>Bem-vindo à Viagens dos Sonhos</h2>
+    <p>Sempre sonhou em fazer aquela viagem para Paris? Ou talvez ir para o Caribe tirar umas férias? Pois seja bem-vindo ao lugar onde será possível encontrar essas viagens pelo melhor preço para você.</p>
+  </section>
+
+  <section id="destinos">
+    <h2>Destinos Incríveis</h2>
+    <p>Explore destinos exóticos como as praias do Caribe, as montanhas da Suíça, ou as luzes encantadoras de Paris.</p>
+  </section>
+
+  <section id="pacotes">
+    <h2>Pacotes de Viagem</h2>
+    
+    <div class="pacote">
+      <h3>Aventura nas Montanhas</h3>
+      <img src="imagens/montanhas.jpg" alt="Aventura nas Montanhas" width="300px">
+      <p>Pacote de 7 dias com tudo incluso para explorar as montanhas e vales da Suíça.</p>
+    </div>
+    
+    <div class="pacote">
+      <h3>Relaxamento nas Praias do Caribe</h3>
+      <img src="imagens/caribe.jpg" alt="Praias do Caribe" width="300px">
+      <p>Desfrute de um pacote de 5 dias nas mais belas praias do Caribe, com hotel all-inclusive.</p>
+    </div>
+    
+    <div class="pacote">
+      <h3>Magia em Paris</h3>
+      <img src="imagens/paris.jpg" alt="Magia em Paris" width="300px">
+      <p>Pacote de 5 dias em Paris, visitando os pontos turísticos mais famosos e vivendo a verdadeira magia da cidade luz.</p>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em Contato e Faça sua Reserva</h2>
+    <form action="envio-formulario.php" method="POST">
+      
+      <!-- Nome -->
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      
+      <!-- E-mail -->
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <!-- Forma de Pagamento -->
+      <label for="pagamento">Forma de Pagamento:</label>
+      <select id="pagamento" name="pagamento" required>
+        <option value="credito">Cartão de Crédito</option>
+        <option value="debito">Cartão de Débito</option>
+        <option value="pix">PIX</option>
+        <option value="dinheiro">Dinheiro</option>
+      </select>
+      
+      <!-- Mensagem -->
+      <label for="mensagem">Mensagem ou Observações:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+      
+      <!-- Botão de Envio -->
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Viagens dos Sonhos - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>

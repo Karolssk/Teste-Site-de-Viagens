@@ -1,0 +1,22 @@
+<section id="pacotes">
+    <h2>Pacotes de Viagem</h2>
+    
+    <div class="pacote">
+      <h3>Aventura nas Montanhas</h3>
+      <img src="imagens/montanhas.jpg" alt="Aventura nas Montanhas" width="300px">
+      <p>Pacote de 7 dias com tudo incluso para explorar as montanhas e vales da Suíça.</p>
+    </div>
+    
+    <div class="pacote">
+      <h3>Relaxamento nas Praias do Caribe</h3>
+      <img src="imagens/caribe.jpg" alt="Praias do Caribe" width="300px">
+      <p>Desfrute de um pacote de 5 dias nas mais belas praias do Caribe, com hotel all-inclusive.</p>
+    </div>
+    
+    <div class="pacote">
+      <h3>Sonhos em Paris</h3>
+      <img src="imagens/paris.jpg" alt="Magia em Paris" width="300px">
+      <p>Pacote de 5 dias em Paris, visitando os pontos turísticos mais famosos e vivendo a verdadeira magia da cidade luz.</p>
+    </div>
+  </section>
+  
