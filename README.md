@@ -28,9 +28,6 @@ As tecnologias e ferramentas utilizadas neste projeto incluem:
 - **API de viagens**: Para obter informações em tempo real sobre preços e disponibilidade (se aplicável).
 - **Git e GitHub**: Controle de versão e hospedagem do projeto.
 
-## Como Usar
-
-Para usar o projeto, siga estas etapas:
 
 1. Clone este repositório:
    ```bash
